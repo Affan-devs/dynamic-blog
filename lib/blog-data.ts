@@ -4,7 +4,7 @@ export const blogPosts: Post[] = [
     slug: 'getting-started-with-web-development',
     title: 'Getting Started with Web Development',
     date: new Date('2024-03-20'),
-    coverImage: './images/placeholder.jpg',
+    coverImage: '/images/webdev.jpg',
     excerpt: 'A comprehensive guide for beginners looking to start their journey in web development.',
     content: `Web development is an exciting field that combines creativity with technical skills. In this post, we'll explore the fundamental concepts and tools you need to begin your journey.
 
@@ -16,7 +16,7 @@ Remember, every expert was once a beginner. The key is to stay curious and keep 
     slug: 'mastering-react-hooks',
     title: 'Mastering React Hooks',
     date: new Date('2024-03-19'),
-    coverImage: '/public/images/reacthooks.jpg',
+    coverImage: '/images/reacthooks.jpg',
     excerpt: 'Deep dive into React Hooks and how they revolutionize state management in functional components.',
     content: `React Hooks have transformed how we write React components. They enable us to use state and other React features without writing class components.
 
@@ -28,7 +28,7 @@ Let's explore how hooks can make our code more readable and maintainable.`,
     slug: 'building-responsive-layouts',
     title: 'Building Responsive Layouts',
     date: new Date('2024-03-18'),
-    coverImage: '/images/placeholder.jpg',
+    coverImage: '/images/blog-2.avif',
     excerpt: 'Learn how to create beautiful, responsive layouts that work across all devices.',
     content: `Responsive design is no longer optional in modern web development. Users access websites from various devices, and our layouts need to adapt accordingly.
 
@@ -41,7 +41,7 @@ Let's explore practical examples and best practices for building responsive layo
     slug: 'understanding-javascript-es6',
     title: 'Understanding JavaScript ES6',
     date: new Date('2024-03-23'),
-    coverImage: '/images/javascript-es6.jpg',
+    coverImage: '/images/js.jpg',
     excerpt: 'Learn about the features and benefits of ES6, the latest version of JavaScript.',
     content: `JavaScript ES6 (also known as ECMAScript 2015) introduced a wealth of new features that make the language more powerful and easier to work with.
   
@@ -53,7 +53,7 @@ Let's explore practical examples and best practices for building responsive layo
     slug: 'exploring-css-grid',
     title: 'Exploring CSS Grid',
     date: new Date('2024-03-24'),
-    coverImage: '/images/css-grid.jpg',
+    coverImage: '/images/css.jpg',
     excerpt: 'A beginner’s guide to mastering the powerful CSS Grid layout system.',
     content: `CSS Grid is a two-dimensional layout system that allows you to create complex web designs with ease.
   
@@ -65,7 +65,7 @@ Let's explore practical examples and best practices for building responsive layo
     slug: 'introduction-to-typescript',
     title: 'Introduction to TypeScript',
     date: new Date('2024-03-25'),
-    coverImage: '/images/typescript.jpg',
+    coverImage: '/images/ts.jpg',
     excerpt: 'An introduction to TypeScript, a typed superset of JavaScript that improves development productivity.',
     content: `TypeScript is a powerful language that builds on JavaScript by adding static typing, which helps catch errors early and improve code quality.
   
@@ -77,7 +77,7 @@ Let's explore practical examples and best practices for building responsive layo
     slug: 'building-responsive-websites',
     title: 'Building Responsive Websites',
     date: new Date('2024-03-26'),
-    coverImage: '/images/responsive-websites.jpg',
+    coverImage: './images/blog-2.avif',
     excerpt: 'Learn how to build websites that look great on any device, from mobile to desktop.',
     content: `Responsive web design ensures your website is user-friendly on all devices, adjusting the layout and content based on screen size.
   
@@ -89,7 +89,7 @@ Let's explore practical examples and best practices for building responsive layo
     slug: 'optimizing-web-performance',
     title: 'Optimizing Web Performance',
     date: new Date('2024-03-27'),
-    coverImage: '/images/web-performance.jpg',
+    coverImage: './images/blog-2.avif',
     excerpt: 'Boost your website’s speed with techniques to reduce load time and enhance user experience.',
     content: `Website performance plays a crucial role in user experience and SEO rankings. Optimizing load time can significantly improve user retention and satisfaction.
   
